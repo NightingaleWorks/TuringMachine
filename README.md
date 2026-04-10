@@ -1,4 +1,4 @@
-*** Turing Machine Simulator ***
+# *** Turing Machine Simulator ***<br>
 This is a simple Turing machine simulator that allows users to understand how Turing machines work.
 The program implements a single-tape Turing machine that uses an infinite tape to store and manipulate data.
 Users can provide an input word and a transition file that defines how the machine works.
@@ -35,58 +35,59 @@ Examples:
 
 1. Recognizing the word 'abba', note 2.2. figure (turing_abba.txt) 
 
-q0 a -> _ R qa 
-q0 b -> _ R qb 
-qa a -> a R qa 
-qa b -> b R qa 
-qa _ -> _ L q2 
-q2 a -> _ L q3 
-q2 b -> b R REJECT 
-q3 a -> a L q3 
-q3 b -> b L q3 
-q3 _ -> _ R q0 
-qb a -> a R qb 
-qb b -> b R qb 
-qb _ -> _ L q4 
-q4 b -> _ L q3 
-q4 a -> a L REJECT 
-q0 _ -> _ R ACCEPT 
+q0 a -> _ R qa<br> 
+q0 b -> _ R qb<br> 
+qa a -> a R qa<br> 
+qa b -> b R qa<br> 
+qa _ -> _ L q2<br> 
+q2 a -> _ L q3<br> 
+q2 b -> b R REJECT<br> 
+q3 a -> a L q3<br> 
+q3 b -> b L q3<br> 
+q3 _ -> _ R q0<br> 
+qb a -> a R qb<br> 
+qb b -> b R qb<br> 
+qb _ -> _ L q4<br> 
+q4 b -> _ L q3<br> 
+q4 a -> a L REJECT<br> 
+q0 _ -> _ R ACCEPT<br> 
 
 
 2. '101101' acceptance after 9 steps (turing_101101.txt) 
 
-q0 0 -> 0 R q1 
-q0 1 -> 1 R q2 
-q1 0 -> 0 R q1 
-q1 1 -> 1 R q2 
-q2 0 -> 0 R q3 
-q2 1 -> 1 R q3
-q3 0 -> 0 R q3
-q3 1 -> 1 R q4
-q4 0 -> 1 L q0
-q4 1 -> 0 L q0
-q0 _ -> _ R ACCEPT
-q1 _ -> _ R ACCEPT
-q2 _ -> _ R ACCEPT
-q3 _ -> _ R ACCEPT
-q4 _ -> _ R ACCEPT
+q0 0 -> 0 R q1<br> 
+q0 1 -> 1 R q2<br> 
+q1 0 -> 0 R q1<br> 
+q1 1 -> 1 R q2<br> 
+q2 0 -> 0 R q3<br> 
+q2 1 -> 1 R q3<br>
+q3 0 -> 0 R q3<br>
+q3 1 -> 1 R q4<br>
+q4 0 -> 1 L q0<br>
+q4 1 -> 0 L q0<br>
+q0 _ -> _ R ACCEPT<br>
+q1 _ -> _ R ACCEPT<br>
+q2 _ -> _ R ACCEPT<br>
+q3 _ -> _ R ACCEPT<br>
+q4 _ -> _ R ACCEPT<br>
 
 3. '10' - in step 3 HALT (halt.txt)
-q0 1 -> 0 R q1
-q1 0 -> 1 L q0
-q0 0 -> _ L HALT
+q0 1 -> 0 R q1<br>
+q1 0 -> 1 L q0<br>
+q0 0 -> _ L HALT<br>
 
 4. and an infinite loop for input '10' (infinite_loop.txt)
-q0 1 -> 0 R q1
-q0 0 -> 1 R q1
-q1 0 -> 1 L q0
-q1 1 -> 0 L q0
+q0 1 -> 0 R q1<br>
+q0 0 -> 1 R q1<br>
+q1 0 -> 1 L q0<br>
+q1 1 -> 0 L q0<br>
 
 Happy learning!
 Dr. Szabolcs Szlávik, 2026.
-
-
-*** Turing gép szimulátor ***
+***************************************************************************************************************************************************
+* Hungarian ***************************************************************************************************************************************
+***************************************************************************************************************************************************
+# *** Turing gép szimulátor ***<br>
     Ez egy egyszerű Turing gép szimulátor, amely lehetővé teszi a felhasználók számára, hogy megértsék a Turing gépek működését.
     A program egyszalagos Turing gépet valósít meg, amely egy végtelen hosszú szalagot használ adat tárolására és manipulálására.
     A felhasználók megadhatnak egy bemeneti szót és egy átmenet fájlt, amely meghatározza a gép működését.
