@@ -1,0 +1,6 @@
+# currentState readSymbol -> writeSymbol moveDirection nextState
+
+q0 1 -> 0 R q1
+q0 0 -> 0 L ACCEPT
+q1 0 -> 1 L q0
+q1 _ -> _ R REJECT

@@ -1,0 +1,7 @@
+# currentState readSymbol -> writeSymbol moveDirection nextState
+# 10 - causing infinite loop
+
+q0 1 -> 0 R q1
+q0 0 -> 1 R q1
+q1 0 -> 1 L q0
+q1 1 -> 0 L q0

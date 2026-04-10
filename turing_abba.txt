@@ -1,0 +1,19 @@
+# currentState readSymbol -> writeSymbol moveDirection nextState
+# abba szó, jegyzet 2. 2. ábra
+
+q0 a -> _ R qa
+q0 b -> _ R qb
+qa a -> a R qa
+qa b -> b R qa
+qa _ -> _ L q2
+q2 a -> _ L q3
+q2 b -> b R REJECT
+q3 a -> a L q3
+q3 b -> b L q3
+q3 _ -> _ R q0
+qb a -> a R qb
+qb b -> b R qb
+qb _ -> _ L q4
+q4 b -> _ L q3
+q4 a -> a L REJECT
+q0 _ -> _ R ACCEPT

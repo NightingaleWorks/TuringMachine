@@ -1,0 +1,18 @@
+# currentState readSymbol -> writeSymbol moveDirection nextState
+# 101101
+
+q0 0 -> 0 R q1
+q0 1 -> 1 R q2
+q1 0 -> 0 R q1
+q1 1 -> 1 R q2
+q2 0 -> 0 R q3
+q2 1 -> 1 R q3
+q3 0 -> 0 R q3
+q3 1 -> 1 R q4
+q4 0 -> 1 L q0
+q4 1 -> 0 L q0
+q0 _ -> _ R ACCEPT
+q1 _ -> _ R ACCEPT
+q2 _ -> _ R ACCEPT
+q3 _ -> _ R ACCEPT
+q4 _ -> _ R ACCEPT
