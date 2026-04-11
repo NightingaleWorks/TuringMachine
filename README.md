@@ -31,6 +31,13 @@ Installation:
 2. You can find the Windows executable C:\Program Files\TuringMachine\TuringMachine.exe
 3. Right click to the icon -> Pin to the Start Menu or Send To -> create Desktop icon
 
+MacOs:
+1. Just copy the TuringMachine.app to the Applications folder
+
+Linux (Debian):
+1. Run the .deb installer - turingmachine-1.0_amd64.deb
+2. You can find the application under Education menu -> TuringMachine
+
 Examples:
 
 1. Recognizing the word 'abba', note 2.2. figure (turing_abba.txt) 
@@ -120,6 +127,13 @@ Dr. Szabolcs Szlávik, 2026.
     2. A Windows futtatható fájlt a C:\Program Files\TuringMachine\TuringMachine.exe útvonalon találja
     3. Kattintson jobb gombbal az ikonra -> Rögzítés a Start menühöz vagy Küldés ide -> Asztal parancsikon létrehozása    
     
+    MacOs:
+    1. Csak másolja a TuringMachine.app fájlt az Applications köny
+
+    Linux (Debian):
+    1. Futtassa a .deb telepítőt - turingmachine-1.0_amd64.deb
+    2. Az alkalmazást az Education menü alatt találja -> TuringMachine
+
     Példák:
 
     1. Az 'abba' szó felismerése, jegyzet 2.2. ábra (turing_abba.txt)
