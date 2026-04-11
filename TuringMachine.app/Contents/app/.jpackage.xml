@@ -1,7 +1,0 @@
-<?xml version="1.0" ?>
-<jpackage-state version="21.0.10" platform="macOS">
-  <app-version>1.0</app-version>
-  <main-launcher>TuringMachine</main-launcher>
-  <main-class>hu.szlavik.szabolcs.App</main-class>
-  <signed>false</signed>
-  <app-store>false</app-store></jpackage-state>
