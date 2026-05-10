@@ -1,5 +1,6 @@
 # currentState readSymbol -> writeSymbol moveDirection nextState
-# abba szó, jegyzet 2. 2. ábra
+# 'abba' szó felismerése, uu^-1 nyelv, jegyzet 2. 2. ábra 30. oldal
+# https://www.inf.elte.hu/dstore/document/224789/GazdagZsoltSzamitaselmeletJegyzet.pdf
 
 q0 a -> _ R qa
 q0 b -> _ R qb
